@@ -6,7 +6,7 @@ wget -O anticron-whm.zip "https://github.com/ninzahost/anticron-whm/raw/main/ant
 unzip anticron-whm.zip
 cd anticron-whm
 sh install -install
-
+cd .. && rm -rf anticron-whm*
 
 
 --------------------------------------------------------------
@@ -21,3 +21,4 @@ wget -O anticron-whm.zip "https://github.com/ninzahost/anticron-whm/raw/main/ant
 unzip anticron-whm.zip
 cd anticron-whm
 sh install -uninstall
+cd .. && rm -rf anticron-whm*
