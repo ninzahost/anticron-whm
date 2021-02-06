@@ -1,1 +1,23 @@
+#Installation Command
 
+cd ~
+rm -rf anticron-whm*
+wget -O anticron-whm.zip "https://github.com/ninzahost/anticron-whm/raw/main/anticron-whm.zip"
+unzip anticron-whm.zip
+cd anticron-whm
+sh install -install
+
+
+
+--------------------------------------------------------------
+
+
+
+#Uninstallation command
+
+cd ~
+rm -rf anticron-whm*
+wget -O anticron-whm.zip "https://github.com/ninzahost/anticron-whm/raw/main/anticron-whm.zip"
+unzip anticron-whm.zip
+cd anticron-whm
+sh install -uninstall
